@@ -80,7 +80,7 @@ public class MyFrame extends JFrame
 		root.add( line3);
 		root.add(Box.createVerticalStrut(20)); // 间距
 		root.add( line4);
-//		root.add(Box.createVerticalGlue()); // 占据剩下的空间
+		root.add(Box.createVerticalGlue()); // 占据剩下的空间
 	}
 	
 	
